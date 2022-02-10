@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    background-color: beige;
+    padding: 4px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+}
+.navbar{
+    background-color: blanchedalmond;
+}
+.nav-item:hover{
+    background-color: aqua;
+}
+button[type=submit]{
+    border-color: brown;
+    background-color: brown;
+    color: white;
+}
+button[type=submit]:hover{
+    background-color: black;
+    color: aliceblue;
+    border-color: aqua;
+}
